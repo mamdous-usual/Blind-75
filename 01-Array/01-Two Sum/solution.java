@@ -39,7 +39,7 @@ class Solution {
         // Create a HashMap to store each number as key and its index as value
         // This allows O(1) lookup time to find complements
         Map<Integer, Integer> numToIndex = new HashMap<>();
-        
+                    
         // Iterate through the array once
         for (int i = 0; i < nums.length; i++) {
             // Calculate what number we need to find to reach the target
